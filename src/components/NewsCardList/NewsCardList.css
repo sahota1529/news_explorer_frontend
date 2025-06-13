@@ -1,0 +1,90 @@
+.cards__grid-container {
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.cards__text {
+  max-width: 400px;
+  font-size: 40px;
+  line-height: 46px;
+  font-family: "Roboto-Slab-400", serif;
+  color: #1a1b22;
+  margin: 0 0 0 50px;
+}
+
+.cards__list {
+  margin: 40px 0 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.cards__list-item {
+  list-style-type: none;
+}
+
+.cards {
+  padding: 40px 0 80px;
+  max-width: 1440px;
+  min-width: 320px;
+  background: #f5f6f7;
+}
+
+.cards__button-container {
+  margin: 64px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.cards__button {
+  font-size: 18px;
+  font-family: "Roboto-500", sans-serif;
+  color: #1a1b22;
+  background: white;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 98px;
+}
+
+.cards__button:hover {
+  cursor: pointer;
+  background: #e8e8e8;
+}
+
+.cards__search-error {
+  font-size: 15px;
+  font-family: "Roboto-Slab-400", serif;
+  color: #1a1b22;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+@media screen and (max-width: 815px) {
+  .card__section {
+    margin: 40px auto 0;
+  }
+
+  .card__text {
+    font-size: 30px;
+    max-width: 336px;
+  }
+
+  .card__button {
+    padding: 16px 75px;
+    width: 250px;
+    height: 56px;
+  }
+
+  .card__button-container {
+    margin: 48px auto 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .card__list {
+    gap: 10px;
+  }
+}

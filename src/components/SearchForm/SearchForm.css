@@ -1,0 +1,146 @@
+.search {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1440px;
+  min-width: 320px;
+  margin: 0 0 48px;
+}
+
+.search__text-container {
+  color: white;
+  margin: 80px auto 0;
+  text-align: left;
+  padding: 0 10px;
+}
+
+.search__title {
+  font-size: 65px;
+  font-weight: 400;
+  width: 608px;
+  line-height: 70px;
+  margin: 0;
+  font-family: "Roboto-Slab-400", serif;
+}
+
+.search__subtitle {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  margin: 32px auto 0;
+  font-family: "Roboto-400", sans-serif;
+}
+
+.search__form-container {
+  margin: 88px auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search__form {
+  font-family: "Roboto-400", sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.search__form-fieldset {
+  border: none;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  min-width: 320px;
+}
+
+.search__form-input {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  width: 560px;
+  padding: 21px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+}
+
+.search__submit-button {
+  color: white;
+  background: #2f71e5;
+  border: none;
+  border-radius: 50px;
+  padding: 20px 56px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  position: absolute;
+  right: 0;
+}
+
+.search__submit-button:hover {
+  cursor: pointer;
+  background: #347eff;
+}
+
+.search__submit-button:active {
+  background: #2a65cc;
+}
+
+@media screen and (max-width: 815px) {
+  .search__text-container {
+    margin: 32px auto 0;
+  }
+
+  .search__title {
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 40px;
+    text-align: left;
+    max-width: 385px;
+  }
+
+  .search__subtitle {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    max-width: 452px;
+    margin: 16px auto 0;
+  }
+
+  .search__form {
+    max-width: 448px;
+  }
+
+  .search__form-input {
+    max-width: 448px;
+  }
+
+  .search__form-container {
+    margin: 42px auto 0;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .search__form-fieldset {
+    width: 100vw;
+    padding: 0 16px 0;
+  }
+
+  .search__form-container {
+    margin: 100px 0 0;
+  }
+
+  .search__title {
+    width: 100%;
+  }
+
+  .search__form-input {
+    width: 100%;
+  }
+
+  .search__submit-button {
+    width: 100%;
+    position: static;
+    margin: 16px 0 0;
+  }
+}

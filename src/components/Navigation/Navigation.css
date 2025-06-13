@@ -1,0 +1,144 @@
+.nav {
+  min-height: 66px;
+  position: relative;
+}
+
+.nav__content {
+  min-width: 320px;
+  max-width: 1440px;
+  color: white;
+  padding: 16px 52px 13px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__outline {
+  width: 70px;
+  border-bottom: 2px solid white;
+  outline: none;
+  position: absolute;
+  bottom: -13px;
+  left: -10px;
+}
+
+.nav__outline-black {
+  width: 150px;
+  border-bottom: 2px solid black;
+  outline: none;
+  position: absolute;
+  bottom: -13px;
+  left: 65px;
+}
+
+.nav__buttons {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  gap: 50px;
+}
+
+.nav__title {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto-Slab-700", serif;
+  margin: 0 30px 0 0;
+}
+
+.nav__button {
+  color: white;
+  background: none;
+  border: none;
+  width: 50px;
+  font-size: 18px;
+  padding: 0;
+  cursor: pointer;
+  font-family: "Roboto-400", sans-serif;
+}
+
+.nav__button:hover {
+  opacity: 50%;
+  scale: 1.025;
+  cursor: pointer;
+}
+
+.nav__button-saved {
+  color: white;
+  background: none;
+  border: none;
+  width: 150px;
+  font-size: 18px;
+  cursor: pointer;
+  font-family: "Roboto-400", sans-serif;
+}
+
+.nav__button-saved:hover {
+  opacity: 50%;
+  scale: 1.025;
+  cursor: pointer;
+}
+
+.nav__button-register {
+  background: none;
+  border: 1px solid;
+  border-radius: 25px;
+  width: 176px;
+  height: 48px;
+  color: white;
+  font-size: 18px;
+  font-family: "Roboto-500", sans-serif;
+}
+
+.nav__button-register:hover {
+  cursor: pointer;
+  opacity: 50%;
+  scale: 1.025;
+}
+
+.nav__button-logout {
+  background: none;
+  border: 1px solid;
+  border-radius: 25px;
+  color: white;
+  font-size: 18px;
+  padding: 12px 19px;
+  cursor: pointer;
+  font-family: "Roboto-500", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.dark {
+  color: #1a1b22;
+}
+
+.nav__button-logout:hover {
+  opacity: 50%;
+  scale: 1.025;
+  cursor: pointer;
+}
+
+.nav__button-logout-icon {
+  width: 18px;
+  height: 16px;
+}
+
+.nav__mobile-toggle {
+  visibility: hidden;
+  display: none;
+}
+
+@media screen and (max-width: 840px) {
+  .nav__mobile-toggle {
+    visibility: visible;
+    display: contents;
+  }
+
+  .nav__content {
+    visibility: hidden;
+    display: none;
+  }
+}
