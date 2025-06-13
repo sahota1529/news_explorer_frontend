@@ -2,7 +2,7 @@ import { checkResponse } from "./NewsApi";
 
 const baseUrl =
   process.env.NODE_ENV === "production"
-    ? "https://api-newsexplorer.utdnews.com"
+    ? "https://sahota1529.github.io/news_explorer_frontend/.com"
     : "http://localhost:3001";
 
 // const authorize = (email, password) => {
