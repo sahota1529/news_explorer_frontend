@@ -4,8 +4,7 @@ NewsExplorer is a dynamic web application designed to provide users with a seaml
 
 # Deployment
 
-Live website: "https://sahota1529/news_explorer_frontend/"
-
+Live website: "https://sahota1529.github.io/news_explorer_frontend/"
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
